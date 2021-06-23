@@ -1,0 +1,20 @@
+{
+  "name": "webdeveloper",
+  "version": "0.1.0",
+  "description": "Como ser un programador web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roberto",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roberto-CR/WebDeveloper-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Roberto-CR/WebDeveloper-/issues"
+  },
+  "homepage": "https://github.com/Roberto-CR/WebDeveloper-#readme"
+}
