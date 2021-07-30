@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- the below meta tag is default in most modern browsers. however if you have an
+  <head>
+    <!-- the below meta tag is default in most modern browsers. however if you have an
   older browser, the emojis may not show up properly. In which case you need this meta
   tag. Read more here: https://teamtreehouse.com/community/meta-charsetutf8-what-does-this-mean-or-what-does-it-do-i-deleted-it-from-the-code-and-nothing-changed -->
-  <meta charset="utf-8" >
-  <title>Grid Master</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="zone green">🦊</div>
-    <div class="zone red">🐰</div>
-    <div class="zone blue">🐸</div>
-    <div class="zone yellow">🦁</div>
-    <div class="zone purple">🐯</div>
-    <div class="zone brown">🐭</div>
-    <div class="zone green">🦄</div>
-    <div class="zone red">🐲</div>
-    <div class="zone blue">🐷</div>
-    <div class="zone yellow">🐺</div>
-    <div class="zone purple">🐼</div>
-    <div class="zone brown">🐻</div>
-  </div>
+    <meta charset="utf-8" />
+    <title>Grid Master</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="zone green">🦊</div>
+      <div class="zone red">🐰</div>
+      <div class="zone blue">🐸</div>
+      <div class="zone yellow">🦁</div>
+      <div class="zone purple">🐯</div>
+      <div class="zone brown">🐭</div>
+      <div class="zone green">🦄</div>
+      <div class="zone red">🐲</div>
+      <div class="zone blue">🐷</div>
+      <div class="zone yellow">🐺</div>
+      <div class="zone purple">🐼</div>
+      <div class="zone brown">🐻</div>
+    </div>
 
-</body>
+    <script>
+      // For all of these, what is the value of a when the function gets called with the alert()
+      // #1
+      function q1() {
+        var a = 5;
+        if (a > 1) {
+          a = 3;
+        }
+        alert(a);
+      }
+
+      //#2
+      var a = 0;
+      function q2() {
+        a = 5;
+      }
+
+      function q22() {
+        alert(a);
+      }
+
+      //#3
+      function q3() {
+        window.a = "hello";
+      }
+
+      function q32() {
+        alert(a);
+      }
+
+      //#4
+      var a = 1;
+      function q4() {
+        var a = "test";
+        alert(a);
+      }
+
+      //#5
+      var a = 2;
+      if (true) {
+        var a = 5;
+        alert(a);
+      }
+      alert(a);
+    </script>
+  </body>
 </html>

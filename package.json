@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Roberto-CR/WebDeveloper-/issues"
   },
-  "homepage": "https://github.com/Roberto-CR/WebDeveloper-#readme"
+  "homepage": "https://github.com/Roberto-CR/WebDeveloper-#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
 }
